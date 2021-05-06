@@ -1,0 +1,10 @@
+extends ./../layouts/_basic.pug
+
+include ./../mixins/_description.pug
+
+block variables
+	- const title = "Главная";
+
+block content
+	.container
+		+descr("Hello", "hay")

@@ -1,0 +1,8 @@
+header.header
+	.container
+		nav.nav
+			ul.menu
+				li.menu__item( class=(title == 'Главная') ? 'active' : null)
+					a.menu__link(href='/') Home
+				li( class=(menu__item, title == 'Каталог') ? 'active' : null)
+					a.menu__link(href='/about') About
